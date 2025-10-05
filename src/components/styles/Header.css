@@ -1,0 +1,21 @@
+.header {
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text color */
+  padding: 15px; /* Padding around the header */
+  text-align: center; /* Centered text */
+  font-size: 24px; /* Larger font size */
+}
+
+.header nav {
+  margin: 10px 0; /* Margin for navigation */
+}
+
+.header nav a {
+  color: white; /* White text color for links */
+  margin: 0 15px; /* Margin between links */
+  text-decoration: none; /* No underline */
+}
+
+.header nav a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
