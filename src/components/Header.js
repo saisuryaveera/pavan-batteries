@@ -1,8 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Header.css';
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header className="header">
       <div className="header-container">
@@ -10,23 +16,19 @@ const Header = () => {
           <h1>🔋 Pavan Batteries</h1>
           <p className="tagline">Your Power Partner in Mandapeta</p>
         </div>
-        <nav className="nav">
+        <button className="hamburger" onClick={toggleMenu}>
+          ☰
+        </button>
+        <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
           <ul>
-            <li><Link to="/">🏠 Home</Link></li>
-            <li><Link to="/about">ℹ️ About</Link></li>
-            <li><Link to="/services">⚙️ Services</Link></li>
-            <li><Link to="/gallery">📸 Gallery</Link></li>
-            <li><Link to="/geolocator">📍 Location</Link></li>
-            <li><Link to="/contact">📞 Contact</Link></li>
+            <li><Link to="/" onClick={toggleMenu}>🏠 Home</Link></li>
+            <li><Link to="/about" onClick={toggleMenu}>ℹ️ About</Link></li>
+            <li><Link to="/services" onClick={toggleMenu}>⚙️ Services</Link></li>
+            <li><Link to="/gallery" onClick={toggleMenu}>📸 Gallery</Link></li>
+            <li><Link to="/geolocator" onClick={toggleMenu}>📍 Location</Link></li>
+            <li><Link to="/contact" onClick={toggleMenu}>📞 Contact</Link></li>
           </ul>
         </nav>
-      </div>
-      <div className="contact-bar">
-        <div className="contact-info">
-          <p>📞 +91 99899 37686</p>
-          <p>📞 +91 79899 49809</p>
-          <p>🕒 Daily: 9AM-8:30PM</p>
-        </div>
       </div>
     </header>
   );
