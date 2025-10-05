@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pavan-batteries/static/css/main.642863e7.css",
+    "main.js": "/pavan-batteries/static/js/main.c5531ab8.js",
+    "static/js/453.b3704caf.chunk.js": "/pavan-batteries/static/js/453.b3704caf.chunk.js",
+    "index.html": "/pavan-batteries/index.html",
+    "main.642863e7.css.map": "/pavan-batteries/static/css/main.642863e7.css.map",
+    "main.c5531ab8.js.map": "/pavan-batteries/static/js/main.c5531ab8.js.map",
+    "453.b3704caf.chunk.js.map": "/pavan-batteries/static/js/453.b3704caf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.642863e7.css",
+    "static/js/main.c5531ab8.js"
+  ]
+}
