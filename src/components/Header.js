@@ -13,8 +13,10 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo">
-          <h1>🔋 Pavan Batteries</h1>
-          <p className="tagline">Your Power Partner in Mandapeta</p>
+          <Link to="/home" className="logo" onClick={toggleMenu}>
+            <h1>🔋 Pavan Batteries</h1>
+            <p className="tagline">Your Power Partner in Mandapeta</p>
+          </Link>
         </div>
         <button className="hamburger" onClick={toggleMenu}>
           ☰
