@@ -1,20 +1,21 @@
 .header {
-  background-color: #cc0000; /* Red theme */
-  color: white;
-  padding: 10px 20px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
 }
 
 .header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
 }
 
 .logo h1 {
@@ -44,20 +45,27 @@
 }
 
 .nav ul {
-  list-style: none;
   display: flex;
+  list-style: none;
   margin: 0;
   padding: 0;
+  gap: 25px;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .nav ul li {
-  margin: 0 10px;
+  margin: 0 2px; /* Further reduced gap between links */
 }
 
 .nav ul li a {
   text-decoration: none;
   color: white;
-  font-size: 1rem;
+  font-size: 14px; /* Smaller text size for links */
+}
+
+.nav ul li a svg, .nav ul li a span {
+  font-size: 12px; /* Smaller size for icons */
 }
 
 /* Mobile styles */

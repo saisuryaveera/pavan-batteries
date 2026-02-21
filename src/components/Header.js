@@ -21,10 +21,9 @@ const Header = () => {
         </button>
         <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
           <ul>
-            <li><Link to="/" onClick={toggleMenu}>🏠 Home</Link></li>
-            <li><Link to="/about" onClick={toggleMenu}>ℹ️ About</Link></li>
             <li><Link to="/services" onClick={toggleMenu}>⚙️ Services</Link></li>
             <li><Link to="/gallery" onClick={toggleMenu}>📸 Gallery</Link></li>
+            <li><Link to="/about" onClick={toggleMenu}>ℹ️ About</Link></li>
             <li><Link to="/geolocator" onClick={toggleMenu}>📍 Location</Link></li>
             <li><Link to="/contact" onClick={toggleMenu}>📞 Contact</Link></li>
           </ul>
