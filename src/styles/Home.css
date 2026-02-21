@@ -5,29 +5,19 @@
 .hero {
   background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
   color: white;
-  padding: 80px 15px;
+  padding: 0; /* Remove padding from the hero section */
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="50" cy="10" r="0.5" fill="rgba(255,255,255,0.05)"/><circle cx="10" cy="60" r="0.5" fill="rgba(255,255,255,0.05)"/><circle cx="90" cy="40" r="0.5" fill="rgba(255,255,255,0.05)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
-  opacity: 0.3;
-}
 
 .hero-content {
   position: relative;
   z-index: 1;
   max-width: 100%;
-  margin: 0 auto;
-  padding: 0 10px;
+  margin: 0; /* Remove extra margin around hero content */
+  padding: 0; /* Remove extra padding around hero content */
 }
 
 .hero h1 {
@@ -64,6 +54,7 @@
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center; /* Ensures items are centered */
 }
 
 .feature {
@@ -139,11 +130,11 @@
 /* Desktop */
 @media (min-width: 1024px) {
   .hero-features {
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 30px;
   }
   
   .hero {
-    padding: 120px 40px;
+    padding: 40px 20px;
   }
 }

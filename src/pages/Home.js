@@ -13,7 +13,7 @@ const Home = () => {
           <p className="hero-subtitle">Your Trusted Battery Partner in Mandapeta, Konaseema District</p>
           <p className="hero-description">
             Serving the community with premium quality batteries for cars, bikes, autos, lorries, trucks, vans, 
-            and home inverters. We also provide engine oil, distilled water, and professional repair services.
+            and home inverters. We also provide distilled water, and professional battery health check service.
           </p>
           <div className="hero-features">
             <div className="feature">
@@ -27,10 +27,6 @@ const Home = () => {
             <div className="feature">
               <span className="feature-icon">🔧</span>
               <span>Repair Services</span>
-            </div>
-            <div className="feature">
-              <span className="feature-icon">🛢️</span>
-              <span>Engine Oil </span>
             </div>
             <div className="feature">
               <span className="feature-icon">💧</span>
