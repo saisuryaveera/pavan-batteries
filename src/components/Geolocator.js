@@ -27,10 +27,10 @@ const Geolocator = () => {
       <div className="directions">
         <h4>How to Reach Us:</h4>
         <ul>
-          <li>🚌 Take any bus to Mandapeta or travel via Mandapeta-Ramachandrapuram Road</li>
-          <li>🌉 Look for Pedha Kaaluva Bridge near Mandapeta entrance gate</li>
-          <li>👀 Look for our bright yellow "Pavan Batteries" signboard</li>
-          <li>🅿️ Free parking available in front of the shop</li>
+          <li> Take any bus to Mandapeta or travel via Mandapeta-Ramachandrapuram Road</li>
+          <li> Look for Pedha Kaaluva Bridge near Mandapeta entrance gate</li>
+          <li> Look for our bright yellow "Pavan Batteries" signboard</li>
+          <li> Free parking available in front of the shop</li>
         </ul>
       </div>
     </div>

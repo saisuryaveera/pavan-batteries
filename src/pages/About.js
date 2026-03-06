@@ -8,11 +8,11 @@ const About = () => {
         <h1>About Pavan Batteries</h1>
         
         <section className="about-intro">
-          <h2>Your Trusted Battery Partner Since 2015</h2>
+          <h2>Your Trusted Battery Partner</h2>
           <p>
             Welcome to Pavan Batteries, Mandapeta's premier destination for all your battery needs! 
             Owned and operated by <strong>Veera Rajendra</strong>, we are located in the heart of Konaseema district, 
-            Andhra Pradesh, and have been serving our community with dedication and excellence for over 8 years.
+            Andhra Pradesh, and have been serving our community with dedication and excellence.
           </p>
         </section>
 
@@ -40,10 +40,6 @@ const About = () => {
               <h3>Repair & Maintenance</h3>
               <p>Expert repair services to extend battery life and performance</p>
             </div>
-            <div className="service-item">
-              <h3>Accessories</h3>
-              <p>Engine oil, distilled water, and all battery-related accessories</p>
-            </div>
           </div>
         </section>
 
@@ -51,7 +47,7 @@ const About = () => {
           <h2>Our Trusted Brands</h2>
           <p>We are authorized dealers for leading battery and inverter brands, ensuring you get genuine products with full warranty coverage.</p>
           <div className="brands-grid">
-            <div className="brand-item primary">
+            <div className="brand-item">
               <h3>🔴 Exide</h3>
               <p>Our primary partner - India's most trusted battery brand</p>
             </div>
@@ -73,12 +69,12 @@ const About = () => {
         <section className="about-location">
           <h2>Why Choose Us?</h2>
           <ul>
-            <li>✅ 8+ years of trusted service in Mandapeta</li>
+            <li>✅ Trusted service in Mandapeta</li>
             <li>✅ Genuine products from leading manufacturers</li>
             <li>✅ Expert installation and setup services</li>
             <li>✅ Competitive prices and honest advice</li>
             <li>✅ Quick and reliable repair services</li>
-            <li>✅ Home delivery and pickup services</li>
+            <li>✅ Home delivery and pickup services for Inverters</li>
           </ul>
         </section>
 

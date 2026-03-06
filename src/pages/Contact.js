@@ -30,30 +30,9 @@ const Contact = () => {
             </div>
 
             <div className="contact-item">
-              <h3>📍 Visit Our Shop</h3>
-              <p><strong>Address:</strong></p>
-              <p>Pavan Batteries<br/>
-              Near Pedha Kaaluva Bridge<br/>
-              Mandapeta Entrance Gate<br/>
-              Mandapeta-Ramachandrapuram Road<br/>
-              Konaseema District, Andhra Pradesh - 533308</p>
-            </div>
-
-            <div className="contact-item">
               <h3>🕒 Business Hours</h3>
               <p><strong>Daily:</strong> 9:00 AM - 8:30 PM</p>
               <p><strong>Emergency Service:</strong> Available 24/7</p>
-            </div>
-
-            <div className="contact-item">
-              <h3>🚚 Services Available</h3>
-              <ul>
-                <li>Home delivery and pickup</li>
-                <li>Emergency battery replacement</li>
-                <li>Free battery testing</li>
-                <li>Installation and setup</li>
-                <li>Repair and maintenance</li>
-              </ul>
             </div>
 
             <div className="contact-item">
