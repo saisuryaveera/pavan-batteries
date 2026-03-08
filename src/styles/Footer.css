@@ -17,7 +17,7 @@
 .footer-section h3 {
   font-size: 1.8rem;
   margin-bottom: 20px;
-  color: #e74c3c;
+  color: #1e3c72;
   font-weight: 700;
 }
 
@@ -26,7 +26,7 @@
   margin-bottom: 20px;
   color: #ecf0f1;
   font-weight: 600;
-  border-bottom: 2px solid #e74c3c;
+  border-bottom: 2px solid #1e3c72;
   padding-bottom: 8px;
   display: inline-block;
 }
@@ -55,12 +55,12 @@
   content: '→';
   position: absolute;
   left: 0;
-  color: #e74c3c;
+  color: #1e3c72;
   font-weight: bold;
 }
 
 .footer-section ul li:hover {
-  color: #e74c3c;
+  color: #1e3c72;
 }
 
 .footer-section a {
@@ -70,7 +70,7 @@
 }
 
 .footer-section a:hover {
-  color: #e74c3c;
+  color: #1e3c72;
 }
 
 .contact-details p {
@@ -120,10 +120,10 @@
 }
 
 .social-media a:hover {
-  background: #e74c3c;
+  background: #1e3c72;
   color: white;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
+  box-shadow: 0 5px 15px rgba(30, 60, 114, 0.3);
 }
 
 @media (max-width: 768px) {

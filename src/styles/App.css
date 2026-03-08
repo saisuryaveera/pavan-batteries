@@ -56,18 +56,18 @@ p {
 
 /* Links */
 a {
-  color: #e74c3c;
+  color: #1e3c72;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #c0392b;
+  color: #16325a;
 }
 
 /* Buttons */
 button {
-  background: #e74c3c;
+  background: #1e3c72;
   color: white;
   border: none;
   padding: 12px 24px;
@@ -79,9 +79,9 @@ button {
 }
 
 button:hover {
-  background: #c0392b;
+  background: #16325a;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(231, 76, 60, 0.3);
+  box-shadow: 0 5px 15px rgba(30, 60, 114, 0.3);
 }
 
 /* Utility Classes */

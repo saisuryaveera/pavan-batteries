@@ -20,7 +20,12 @@ const ImageGallery = () => {
       <div className="gallery">
         {images.map((image, index) => (
           <div key={index} className="gallery-item" data-alt={image.alt}>
-            <img src={image.src} alt={image.alt} />
+            <img
+              src={image.src}
+              alt={image.alt}
+              loading="lazy"
+              decoding="async"
+            />
           </div>
         ))}
       </div>
